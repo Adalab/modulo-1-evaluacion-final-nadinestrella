@@ -1,0 +1,43 @@
+.connect{
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 13px;
+    padding-top: 34px ;
+
+    &__sentence{
+        color: $color-bright-orange;
+        size: 1.4rem;
+        font-family: $font-roboto-regular;
+
+    }
+    h2{
+        font-family: $font-roboto-slab-bold;
+        size: 2.4px;
+        padding-top: 5px;
+
+    }
+    p{
+        color: $color-greyish-brown;
+        font-family: $font-roboto-regular;
+        size: 1.8px;
+        line-height: 18px;
+        padding-bottom: 10px;
+               
+
+    }
+    .button{
+        background-color: white;
+        border: solid 2px $color-bright-orange ;
+        border-radius: 22.5px;
+        color: $color-bright-orange;
+        font-family: $font-roboto-regular;
+        width: 160px;
+        height: 45px;
+        line-height: 2.25px;
+        
+        
+    }
+
+
+}
