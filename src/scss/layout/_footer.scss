@@ -87,4 +87,36 @@
 
     }
 
+    &__up{
+        width: 45px;
+        height: 45px;
+        background-color: $color-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translate(139px, -233px);
+        border-radius: 22.5px;
+
+        @media(min-width: 768px){
+            transform: translate(204px, -133px);
+
+        }
+        @media(min-width: 1280px){
+            transform: translate(455px, -133px);
+
+        }
+
+    
+        img{
+            width: 21px;
+            height: 24px;
+        }
+
+    }
+    a {
+        text-decoration: none;
+        
+
+    }
 }
