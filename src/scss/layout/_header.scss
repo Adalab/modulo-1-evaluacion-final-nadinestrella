@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-position: 40% 75%;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
     @media (min-width: 768px){
         height: 768px;
@@ -23,40 +25,39 @@
     
 
     &__menu{
-    background-color: $color-bright-orange;
-    width: 38px;
-    height: 35px;
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    @media (min-width: 768px){
-        width: 42px;
-        height: 44px;
-
-    }
-    @media (min-width: 1280px){
-        width: 46px;
-        height: 45px;
-        
-    }
-    
-        img{
-        width: 15px;
-        height: 13px;
+        background-color: $color-bright-orange;
+        width: 38px;
+        height: 35px;
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         @media (min-width: 768px){
-            width: 16px;
-            height: 14px;
+            width: 42px;
+            height: 44px;
+
         }
         @media (min-width: 1280px){
-            width: 17px;
-            height: 15px;
+            width: 46px;
+            height: 45px;
+            
         }
-        
+    
+        img {
+            width: 15px;
+            height: 13px;
+
+            @media (min-width: 768px){
+                width: 16px;
+                height: 14px;
+            }
+            @media (min-width: 1280px){
+                width: 17px;
+                height: 15px;
+            }
         }
     }
 
@@ -66,13 +67,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 200px;
+        margin-bottom: 38px;
 
         @media (min-width: 768px){
-            padding-top: 313px ;
+            margin-bottom: 45x;
         }
         @media (min-width: 1280px){
-            padding-top: 302px;
+            margin-bottom: 50px;
             
         }
 
@@ -98,9 +99,12 @@
             padding-left: 33.8px;
             padding-right: 16px;
             text-align: center;
+            margin: 0 auto;
 
             @media (min-width: 768px){
                 font-size: 2.4rem;
+                font-weight: 100;
+                width: 370px;
 
             }
             @media (min-width: 1280pxx){
@@ -118,19 +122,17 @@
         justify-content: center;
         align-items: center;
         border-radius: 22.5px;
-        position: absolute;
-        transform: translate(150px, 450px);
+        margin: 0 auto;
+        margin-top: 15px;
 
         @media (min-width: 768px){
             width: 42.5px;
             height: 45px;
-            transform: translate(360px, px);
-            
         }
+
         @media (min-width: 1280px){
             width: 46.2px;
             height: 45.9px;
-            transform: translate(641px, 722px);
         }
         
         
