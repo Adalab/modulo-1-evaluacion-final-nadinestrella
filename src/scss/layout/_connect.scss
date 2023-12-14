@@ -3,51 +3,45 @@
     background-color: $color-white;
     display: flex;
     flex-direction: column;
-    
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
         height: 340px;    
     }
-    @media (min-width: 1280px){
+    @media (min-width: 1280px) {
         height: 366px;   
     }
-
     &__container {
         max-width: 869px;
         padding-top: 34px;
         padding-left: 21px;
         padding-right: 12px ;
-
-        @media (min-width: 768px){
+        @media (min-width: 768px) {
             padding-left: 37px;
             padding-right: 39px;
         }
-        @media (min-width: 1280px){
+        @media (min-width: 1280px) {
             margin-left: 275px;
-            margin-right: 136px;
-            
+            margin-right: 136px;    
         }
-
         &--sentence {
             color: $color-bright-orange;
             font-size: 1.4rem;
             font-family: $font-roboto-regular;
             line-height: 30px;
             
-            @media (min-width: 768px){
+            @media (min-width: 768px) {
                 font-size: 1.6rem;    
             }   
         }
-
         h2 {
             font-family: $font-roboto-slab-bold;
             font-size: 2.4rem;
             padding-top: 5px;
             padding-bottom: 5px;
              
-            @media (min-width: 768px){
+            @media (min-width: 768px) {
                 font-size: 3.2rem;   
             }
-            @media (min-width: 1280px){
+            @media (min-width: 1280px) {
             font-size: 4.5rem;    
             }
         }
@@ -56,30 +50,41 @@
         font-family: $font-roboto-regular;
         font-size: 1.8rem;
         line-height: 30px;
-        padding-bottom: 10px;
-        
-        @media (min-width: 768px){
+        padding-bottom: 10px; 
+        @media (min-width: 768px) {
             font-size: 2rem;
             line-height: 30px;
             padding-bottom: 21px;
         }
-
-        @media (min-width: 1280px){
-            padding-bottom: 25px;
-                
+        @media (min-width: 1280px) {
+            padding-bottom: 25px;          
         }
-    }
-
+        }
+        a {
+            background-color: $color-white;
+            transition: background-color 0.5s;
+            font-size: 14px;
+        
+            :hover {
+                background-color: $color-bright-orange;
+                color: $color-white;
+            }
+        }
+        
         &--button {
             background-color: $color-white;
-             border: solid 2px $color-bright-orange ;
+            border: solid 2px $color-bright-orange ;
             border-radius: 22.5px;
             color: $color-bright-orange;
             font-family: $font-roboto-regular;
             font-size: 2rem;
             width: 160px;
-            height: 45px;
-           
+            height: 45px; 
+            transition:
+                width 2s,
+                height 2s,
+                background-color 2s,
+                rotate 2s;  
         }
     }
 }

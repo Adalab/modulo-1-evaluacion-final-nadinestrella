@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 528.8px;
     background-image: url(/images/cover.jpeg);
     background-size: 310%;
@@ -8,23 +8,21 @@
     justify-content: center;
     align-items: flex-end;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
         height: 768px;
         background-size: 187%;
-        background-position: 19% 36%;
-         
+        background-position: 19% 36%;     
     }
 
-    @media (min-width: 1280px){
+    @media (min-width: 1280px) {
         height: 804.3px;
         background-size: 146%;
-        background-position: 47% 82%;
-        
+        background-position: 47% 82%;    
     }
 
     
 
-    &__menu{
+    &__menu {
         background-color: $color-bright-orange;
         width: 38px;
         height: 35px;
@@ -35,86 +33,73 @@
         justify-content: center;
         align-items: center;
 
-        @media (min-width: 768px){
+        @media (min-width: 768px) {
             width: 42px;
             height: 44px;
-
         }
-        @media (min-width: 1280px){
+        @media (min-width: 1280px) {
             width: 46px;
-            height: 45px;
-            
+            height: 45px;    
         }
     
         img {
             width: 15px;
             height: 13px;
 
-            @media (min-width: 768px){
+            @media (min-width: 768px) {
                 width: 16px;
                 height: 14px;
             }
-            @media (min-width: 1280px){
+            @media (min-width: 1280px) {
                 width: 17px;
                 height: 15px;
             }
         }
     }
-
-
-    &__discount{
+    &__discount {
         color: $color-white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 38px;
-
         @media (min-width: 768px){
             margin-bottom: 45x;
         }
         @media (min-width: 1280px){
-            margin-bottom: 50px;
-            
+            margin-bottom: 50px;   
         }
-
-        h1{
+        h1 {
             font-family: $font-roboto-slab-bold;
             text-transform: uppercase;
             font-size: 3rem;
             padding-left: 10px;
-            text-shadow: 0 2px 3px black;
+            text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
             text-align: center;
-
-            @media (min-width: 768px){
+            @media (min-width: 768px) {
                 font-size: 7.5rem;
                 
             }
-            @media (min-width: 1280px){
+            @media (min-width: 1280px) {
                 font-size: 10rem;
             }
         }
-        p{
+        p {
             font-family: $font-roboto-regular;
             font-size: 1.6rem;
             padding-left: 33.8px;
             padding-right: 16px;
             text-align: center;
             margin: 0 auto;
-
-            @media (min-width: 768px){
+            @media (min-width: 768px) {
                 font-size: 2.4rem;
-                font-weight: 100;
                 width: 370px;
-
             }
-            @media (min-width: 1280pxx){
+            @media (min-width: 1280pxx) {
                 font-size: 2.4rem;
             }
-
         }
     }
-
-    &__scroll{
+    &__scroll {
         width: 37.9px;
         height: 35.7px;
         background-color: $color-white;
@@ -124,34 +109,25 @@
         border-radius: 22.5px;
         margin: 0 auto;
         margin-top: 15px;
-
-        @media (min-width: 768px){
+        @media (min-width: 768px) {
             width: 42.5px;
             height: 45px;
         }
-
-        @media (min-width: 1280px){
+        @media (min-width: 1280px) {
             width: 46.2px;
             height: 45.9px;
-        }
-        
-        
-
+        }  
         img{
             width: 18px;
             height: 10px;
-
             @media (min-width: 768px){
                 width: 18.9px;
-                height: 11.7px;
-                
+                height: 11.7px;    
             }
             @media (min-width: 1280px){
                 width: 21px;
                 height: 13px;
-            }
-            
+            }    
         }
     }
-
 }
