@@ -1,62 +1,72 @@
 
-.footer{
-    position: relative;
+.footer {
     background-color: $color-greyish-brown;
     color: $color-white;
     height: 465px ;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
+    position: relative;
+    bottom: 0;
+    padding-top: 65px;
     
-
     @media(min-width: 768px){
         height: 240px;
-        padding-top: 56px ;
-        padding-bottom: 34px;
-        padding-left: 159px;
-        padding-right: 69px;
+        flex-wrap: wrap;
+        padding-top: 56px;
+        flex-direction: row;
+        justify-content: space-around;
+             
+    }
+    @media(min-width: 1280px){
+        padding-top: 50px;
 
     }
     
-    &__sections{
+    &__sections {
         text-transform: uppercase;
         font-size: 1.6rem;
         font-family: $font-roboto-regular;
         line-height: 30px;
-        padding-top: 65px;
-        padding-bottom: 30px;
-
+       
+        
         @media(min-width: 768px){
-            order:1;
-            
+            order:1;  
+            padding-bottom: 34px;
+                 
         }
  
-        ul{
+        ul {
             list-style: none;
             display: flex;
             flex-direction: column;
             text-align: center;
 
             @media(min-width: 768px){
-                text-align: left;
-                
-            }  
-            
+                text-align: left;           
+            }          
         }
-
     }
 
-    &__sMedia{
+    &__sMedia {
         text-transform: uppercase;
         font-size: 1.6rem;
         font-family: $font-roboto-regular;
         line-height: 30px;
+        padding-top: 30px;
 
         @media(min-width: 768px){
             order:3;
+            padding-top: 0px;
+            padding-right: 69px;
+            padding-left: 30px;
             
+        }
+        @media(min-width: 1280px){
+            padding-right: 370px;
+            padding-left: 30px;
+    
         }
 
         ul{
@@ -67,28 +77,34 @@
 
             @media(min-width: 768px){
                 text-align: left;
-
             }
         }
     }
 
-    &__copy{
+    &__copy {
         font-size: 1.4rem;
         font-family: $font-roboto-regular;
         line-height: 30px;
         display: flex;
         flex-direction: column;
         text-align: center;
+        padding-top: 32px ;
         padding-bottom: 36px;
 
         @media(min-width: 768px){
             order:0;
             text-align: left;
-        }
+            padding-top: 0px;
 
+        }
+        @media(min-width: 1280px){
+            padding-left: 370px;
+            padding-right: 31px;
+    
+        }
     }
 
-    &__up{
+    &__up {
         width: 45px;
         height: 45px;
         background-color: $color-white;
@@ -101,7 +117,7 @@
         transform: translate(-50%, -50%);
         border-radius: 22.5px;
 
-        img{
+        img {
             width: 21px;
             height: 24px;
         }

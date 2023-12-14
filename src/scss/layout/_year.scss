@@ -1,4 +1,4 @@
-.year{
+.year {
     background-color: $color-white-two;
     display: grid;
     grid-template-columns: 1fr;
@@ -11,10 +11,8 @@
     @media (min-width:1280px){
         height: 427px;
     }
-    
-    
 
-    &__maintitle{
+    &__maintitle {
         font-family: $font-roboto-slab-bold;
         font-size: 2rem;
         width: 290px;
@@ -31,12 +29,10 @@
         @media (min-width:1280px){
             font-size: 3.2rem;
             width: 730px;
-        
-        }
-       
+        }    
     }
 
-    &__articles{
+    &__articles {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -49,21 +45,19 @@
             grid-template-columns: 1fr 1fr 1fr;
             gap: 15px;
             padding-bottom: 38px;
-
         }
         
-        h3{
+        h3 {
             text-align: center;
             font-family: $font-roboto-slab-bold;
             
 
             @media (min-width:768px){
                 font-size: 2.4rem;   
-            }
-            
+            }       
         }
 
-        p{
+        p {
             font-family: $font-roboto-regular;
             width: 180px;
             height: 63px;
@@ -81,17 +75,12 @@
             @media (min-width:1280px){
                 width: 358.8px;
                 height: 81.5px;
-                padding-top: 32px;
-                
-
-            }
-            
-            
+                padding-top: 32px;        
+            }    
         }
-
     }
 
-    &__button{
+    &__button {
         background-color: $color-bright-orange;
         width: 184px;
         height: 45px;
@@ -100,19 +89,5 @@
         border: none;
         font-size: 20px;
         margin: 0 auto;
-        
-        
-        
-
     }
-
-
-
-
-        
-        
-    
-
-
-
 }
